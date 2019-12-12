@@ -229,7 +229,7 @@
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="layui/layui.js"></script>
+	<script src="layui/layui.all.js"></script>
 	<script>
 		$(function () {
 			$('#home1').click(function () {
@@ -265,7 +265,7 @@
 		function version() {
 			if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 				//移动
-				layui.use(['layer'], function () {
+				// layui.use(['layer'], function () {
 					var layer = layui.layer;
 					layer.open({
 						type: 2,
@@ -273,10 +273,10 @@
 						content: 'version.html',
 						anim: 3
 					});
-				});
+				// });
 			} else {
 				//PC
-				layui.use(['layer'], function () {
+				// layui.use(['layer'], function () {
 					var layer = layui.layer;
 					layer.open({
 						type: 2,
@@ -285,14 +285,14 @@
 						content: 'version.html',
 						anim: 3
 					});
-				});
+				// });
 			}
 		}
 
 		function dashang() {
 			if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
 				//移动
-				layui.use(['layer'], function () {
+				// layui.use(['layer'], function () {
 					var layer = layui.layer;
 					layer.open({
 						type: 2,
@@ -300,10 +300,10 @@
 						content: 'dashang.html',
 						anim: 3
 					});
-				});
+				// });
 			} else {
 				//PC
-				layui.use(['layer'], function () {
+				// layui.use(['layer'], function () {
 					var layer = layui.layer;
 					layer.open({
 						type: 2,
@@ -312,7 +312,7 @@
 						content: 'dashang.html',
 						anim: 3
 					});
-				});
+				// });
 			}
 		}
 		
