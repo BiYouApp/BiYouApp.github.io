@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/dashang.css" >
+    <title>打赏</title>
+</head>
+<body>
+    <div class="content">
+        <div class="title"><p>感谢您的支持，我会继续努力的!</p></div>
+        <div class="image"><img id="pay-image" src="images/pay/wechat.png"></div>
+        <div class="image-subtitle"><p>扫码打赏，你说多少就多少</p></div>
+        <div class="pay-image-content">
+            <input type="radio"  name="pay-type" checked>
+            <img src="https://static.runoob.com/images/dashang/wechat.jpg" onclick="checkWeChat()">
+            <div style="width: 15px;"></div>
+            <input type="radio"  name="pay-type">
+            <img src="https://static.runoob.com/images/dashang/alipay.jpg" onclick="checkAliPay()">
+        </div>
+        <div class="bottom"><p>打开<span id="pay-type-title">微信</span>扫一扫，即可进行扫码打赏哦</p></div>
+    </div>
+
+    <script src="js/dashang.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+</body>
+</html>

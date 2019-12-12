@@ -1,0 +1,9 @@
+.content {width: 95%;margin: 20px auto;display: flex;flex-direction: column; justify-content: center;align-items: center;background-color: wheat;}
+/* .image{border: 3px solid #ea5f00;} */
+.image img{width: 150px;}
+.title{}
+.title p{color:gray;font-size: 14px;}
+.image-subtitle{color: gray; font-size: 12px;}
+.pay-image-content{display: flex; flex-direction: row;}
+.pay-image-content img{width: 70px;}
+.bottom p {color: gray; font-size: 11px;}

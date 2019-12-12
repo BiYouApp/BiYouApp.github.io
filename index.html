@@ -50,6 +50,9 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#" onclick="version()">版本更替</a>
 						</li>
+						<li class="nav-item">
+								<a class="nav-link" href="#" onclick="dashang()">打赏</a>
+							</li>
 
 					</ul>
 
@@ -285,6 +288,35 @@
 				});
 			}
 		}
+
+		function dashang() {
+			if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+				//移动
+				layui.use(['layer'], function () {
+					var layer = layui.layer;
+					layer.open({
+						type: 2,
+						title: '计划1',
+						content: 'dashang.html',
+						anim: 3
+					});
+				});
+			} else {
+				//PC
+				layui.use(['layer'], function () {
+					var layer = layui.layer;
+					layer.open({
+						type: 2,
+						title: '计划',
+						area: ['600px', '400px'],
+						content: 'dashang.html',
+						anim: 3
+					});
+				});
+			}
+		}
+		
+		
 	</script>
 
 	<style>
