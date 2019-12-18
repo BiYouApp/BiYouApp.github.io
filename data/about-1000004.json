@@ -1,0 +1,27 @@
+{
+    "vid": 1000004,
+    "vName": "1.1.4.1218_R",
+    "vUpd": "http://www.biyou.ink/version.html",
+    "list": [
+        {
+            "name": "官网",
+            "url": "http://www.biyou.ink/",
+            "icon":"cuIcon-wefill text-green"
+        },
+        {
+            "name": "功能介绍",
+            "url": "http://www.biyou.ink/#features",
+            "icon":"cuIcon-wefill text-red"
+        },
+        {
+            "name":"帮助",
+            "url": "http://www.biyou.ink/#help",
+            "icon":"cuIcon-wefill text-red"
+        },
+        {
+            "name":"觉得不错，打赏一杯咖啡",
+            "url": "http://www.biyou.ink/dashang.html",
+            "icon":"cuIcon-redpacket_fill text-red"
+        }
+    ]
+}
