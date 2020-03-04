@@ -1,0 +1,22 @@
+[{
+  "name": "网易云",
+  "spe": "netease",
+  "status": "more",
+  "pages": 1,
+  "isTab": false
+},
+  {
+    "name": "QQ音乐",
+    "spe": "tencent",
+    "status": "more",
+    "pages": 1,
+    "isTab": false
+  },
+  {
+    "name": "酷狗",
+    "spe": "kugou",
+    "status": "more",
+    "pages": 1,
+    "isTab": false
+  }
+]

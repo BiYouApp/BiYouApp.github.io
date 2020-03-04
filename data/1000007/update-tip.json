@@ -1,0 +1,12 @@
+{
+    "versionNameR":"1.2.2.0112_R",
+    "versionName":"1.2.2",
+    "versionCode":1000005,
+    "packageSize":"27.46MB",
+    "publicTime":"2020-01-12",
+    "isQuit":false,
+    "uploadInstructions":[
+        "修复 修复腾讯视频解析失败的Bug"
+    ],
+    "webDownload":"http://www.biyou.ink/"
+}

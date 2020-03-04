@@ -1,0 +1,24 @@
+{
+        "ids":"201911271521",
+        "data":[
+            {
+                "ids":"201911271521001",
+                "title":{
+                        "color":"black",
+                        "text":"免责申明",
+                        "bold":"bold"
+                },
+                "content":{
+                        "color":"red",
+                        "text":"此软件为免费软件，仅供功能测试，请不要用作他用，视频解析属于第三方，与本软件无关，如果侵犯了您的权益请发邮件到liujie@biyou.ink"
+                },
+                "btn":[
+                    {
+                        "color":"blue",
+                        "bold":"bold",
+                        "text":"确定"
+                    }
+                ]
+            }
+        ]
+}

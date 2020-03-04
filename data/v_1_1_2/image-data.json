@@ -1,28 +1,28 @@
 {
-  "id": 201912131116,
+    "id": 201911031028,
     "source": [
        {
-        "title": "新",
+        "title": "爱奇艺",
         "url": "https://m.iqiyi.com/",
-        "image": "https://liujietan.gitee.io/biyou/data/image/iqiyi.jpg",
+        "image": "https://liujietan.gitee.io/biyou/data/v_1_1_2/image/iqiyi.jpg",
         "regex": "\\S+iqiyi.com/v_\\S+\\.html\\S*"
        },
        {
-        "title": "年",
+        "title": "腾讯",
         "url": "https://m.v.qq.com/index.html",
-        "image": "https://liujietan.gitee.io/biyou/data/image/qq.jpg",
+        "image": "https://liujietan.gitee.io/biyou/data/v_1_1_2/image/qq.jpg",
         "regex": "\\S+cid=\\S+&vid=\\S+|\\S+v.qq.com/cover\\S+\\.html\\S*|\\S+/x/cover\\S+\\.html\\S*"
        },
        {
-        "title": "快",
+        "title": "优酷",
         "url": "https://www.youku.com",
-        "image": "https://liujietan.gitee.io/biyou/data/image/youku.jpg",
+        "image": "https://liujietan.gitee.io/biyou/data/v_1_1_2/image/youku.jpg",
         "regex": "\\S+youku.com/video/id_\\S+\\.html\\S*"
        },
        {
-        "title": "乐",
+        "title": "芒果TV",
         "url": "https://m.mgtv.com/channel/home/",
-        "image": "https://liujietan.gitee.io/biyou/data/image/mangguo.jpg",
+        "image": "https://liujietan.gitee.io/biyou/data/v_1_1_2/image/mangguo.jpg",
         "regex": "\\S+mgtv.com/b/\\S+\\.html\\S*"
        }
      ]

@@ -1,0 +1,26 @@
+{
+    "ids":"202001122012",
+	"tipDialogData": {
+		"ids": 202001122012001,
+        "priority": 5,
+		"title": "通 知",
+		"forceTip": false,
+		"forceUpd": false,
+		"content": "这是一个通知的组件，可以根据所需要的格式将返回的数据解析出来之后经过逻辑返回出不同的结果来。",
+		"button": [{
+			"con": "朕知道了",
+			"url": "https://www.baidu.com/",
+			"color": "red",
+			"param": {
+				"nav": "",
+				"noTip": true,
+				"quit": false
+			}
+		}]
+	},
+    "tipPopData": {
+        "priority": 1,
+         "image":"",
+         "url": "https://www.baidu.com/"
+    }
+}
