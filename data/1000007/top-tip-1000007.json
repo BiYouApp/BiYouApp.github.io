@@ -1,10 +1,23 @@
 {
-        "ids":100005,
-        "topTipColor":"#c71d23",
-        "type":"sound",
-        "speed":"",
-        "scrollable":false,
-        "backgroundColor":"#ffe0e9",
-        "url":"https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_top1",
-        "content":"抗击肺炎，中国加油!!! 点我查看疫情地图"
+        "ids": 100005,
+        "data": {
+                "color": "#c71d23",
+                "interval": 2000,
+                "duration": 500,
+                "bgColor": "#ffe0e9",
+                "data": [{
+                                "url": "https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_top1",
+                                "content": "抗击肺炎，中国加油!!! 点我查看疫情地图1"
+                        },
+                        {
+                                "url": "https://www.baidu.com",
+                                "content": "百度一下，你就知道|腾讯视频、优酷、芒果最近进行升级导致解析不到数据。最近会修复"
+                        },
+                        {
+                                "url": "https://www.baidu.com",
+                                "content": "最近将更新新版本，更加稳定好用，并且新增歌曲模块，敬请期待"
+                        }
+                ]
+        }
+
 }

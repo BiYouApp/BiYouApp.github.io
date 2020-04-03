@@ -24,8 +24,6 @@
 		  s.parentNode.insertBefore(hm, s);
 		})();
 		</script>
-		
-
 </head>
 
 <body class="shards-app-promo-page--1">
@@ -51,6 +49,9 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#features" id="features1">产品功能</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#music" id="music1">音乐馆</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#video" id="video1">视频演示</a>
@@ -90,14 +91,14 @@
 		<div class="inner-wrapper mt-auto mb-auto container" style="padding: 30px;">
 			<div class="row">
 				<div class="col-lg-5 col-md-5 col-sm-12 mt-auto mb-auto mr-3">
-					<h1 class="text-white" style="font-size: 38px;font-weight: 300;margin-bottom: 40px;">笔邮，免费观看VIP视频
+					<h1 class="text-white" style="font-size: 38px;font-weight: 300;margin-bottom: 40px;">笔邮，免费vip音乐视频
 					</h1>
 					<p class="text-muted" style="margin-bottom: 28px;font-size: 15px;">
 						免责声明：软件（笔邮）作为免费软件，仅供功能测试和开发交流，请不要以营利目的用作他用，或进行反编译二次开发。视频解析与结果来源于第三方，与软件（笔邮）无关。如果侵犯了您的权益请发邮件到 <a
 							href="mailto:feedback@biyou.ink" style="color: #19a2f7;">feedback@biyou.ink</a></p>
 					<p class="text-muted" style="margin-bottom: 50px;">温馨提示：<span
 							style="font-size: 16px;color: wheat;">视频中包含的赌博、色情、广告、政治等信息均为假消息，切勿上当受骗！！！<span></p>
-					<a href="https://liujietan.gitee.io/biyou/apk/biyou-1.2.2.0112_R-1000005.apk" class="btn btn-lg btn-success btn-pill align-self-center"
+					<a href="https://liujietan.gitee.io/biyou/apk/biyou-2.0.1.0208_R-1000006.apk" class="btn btn-lg btn-success btn-pill align-self-center"
 						style="background-color:#19a2f7;border:0"><i class="fa fa-download mr-2"></i> 下载</a>  <a href="#"><img class="" style="width:34px;height:34px" src="images/app-promo/android.png"
 							alt="Get it on Apple Store"></a>
 					<div class="d-block mt-4" style="margin: 10px;">
@@ -112,7 +113,7 @@
 				</div>
 
 				<div class="col-lg-4  ml-auto">
-					<img class="iphone-mockup ml-auto" src="images/app-promo/index.png"
+					<img class="iphone-mockup ml-auto" src="images/app-promo/index.jpg"
 						alt="iPhone App Mockup - Shards App Promo Demo" style="max-width:85%">
 				</div>
 			</div>
@@ -161,6 +162,32 @@
 							<div>
 								<h5 class="sub-title">Access Anywhere</h5>
 								<p>不需要电脑，只需手机安装App即可畅游全网资源。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 音乐馆 -->
+	<div id="music" class="app-features section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="app-screenshot col-lg-4 col-md-12 col-sm-12 px-0 py-5">
+					<img class="mt-auto mb-auto" src="images/app-promo/app-music.jpg"
+						alt="App Screenshot - Shards App Promo Demo Page">
+				</div>
+
+				<!-- App Features Wrapper -->
+				<div class="app-features-wrapper col-lg-4 col-md-6 col-sm-12 py-5 mx-auto">
+					<div class="container">
+						<h3 class="section-title underline--left my-5">音乐馆</h3>
+						<div class="feature py-4 d-flex">
+							<div class="icon text-white bg-green mr-5"><i class="fa fa-refresh"></i></div>
+							<div>
+								<h5 class="sub-title">集成多方播放线路</h5>
+								<p>集成多方播放线路，最大可能保证服务的稳定性(笔邮不会对服务的稳定性有任何保证)</p>
 							</div>
 						</div>
 					</div>
@@ -261,6 +288,13 @@
 				}, 600);
 				return false;
 			});
+			$('#music1').click(function () {
+				var features = $($(this).attr("href")).offset().top;
+				$("html, body").animate({
+					scrollTop: features + "px"
+				}, 600);
+				return false;
+			});
 			$('#video1').click(function () {
 				var testimonials = $($(this).attr("href")).offset().top;
 				$("html, body").animate({
@@ -339,8 +373,16 @@
 			background-color: #1c9ef4 !important;
 		}
 
+		.bg-green {
+			background-color: #17c671 !important;
+		}
+
 		.shards-app-promo-page--1 .section-title:after {
 			background:#1c9ef4;
+		}
+
+		.shards-app-promo-page--1 .section-title1:after {
+			background:#17c671;
 		}
 
 		.sub-title{

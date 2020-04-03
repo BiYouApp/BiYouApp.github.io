@@ -11,13 +11,13 @@
         "title": "腾讯",
         "url": "https://m.v.qq.com/index.html",
         "image": "https://liujietan.gitee.io/biyou/data/image/qq.jpg",
-        "regex": "\\S+cid=\\S+&vid=\\S+|\\S+v.qq.com/cover\\S+\\.html\\S*|\\S+/x/cover\\S+\\.html\\S*"
+        "regex": "\\S+cid=\\S+&vid=([^&]{1,})|\\S+vid=\\S+&cid=([^&]{1,})|\\S+v.qq.com/cover\\S+\\.html\\S*|\\S+/x/cover\\S+\\.html\\S*"
        },
        {
         "title": "优酷",
         "url": "https://www.youku.com",
         "image": "https://liujietan.gitee.io/biyou/data/image/youku.jpg",
-        "regex": "\\S+youku.com/video/id_\\S+\\.html\\S*"
+        "regex": "\\S+youku.com/video/id_[A-Z]{1,}\\S+\\.html\\S*|\\S+youku.com/alipay_video/id_[A-Z]{1,}\\S+\\.html\\S*"
        },
        {
         "title": "芒果TV",
@@ -25,5 +25,8 @@
         "image": "https://liujietan.gitee.io/biyou/data/image/mangguo.jpg",
         "regex": "\\S+mgtv.com/b/\\S+\\.html\\S*"
        }
-     ]
+     ],
+     "extra":{
+       "regex":"(\\S+https%3A%2F%2Fm.iqiyi.com%2Fv\\S+)|(https://m.v.qq.com/x/m/play\\S+cid=\\S+&vid=\\S+)|(http://m.v.qq.com/x/m/play\\S+cid=\\S+&vid=\\S+)"
+     }
 }

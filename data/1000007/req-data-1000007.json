@@ -1,14 +1,21 @@
-[
-    {
-                "name":"百域阁解析",
-                "url":"http://api.baiyug.vip/?url="
-    },
-    {
-                "name":"智能解析",
-                "url":"http://jx.drgxj.com/?url="
-    },
-    {
-                "name":"1717kun",
-                "url":"http://17kyun.com/api.php?url="
-    }
-]
+{
+    "buttons": [
+        {
+                    "title":"百域阁解析",
+                    "url":"http://api.baiyug.vip/?url=",
+                    "style": ""
+        },
+        {
+                    "title":"智能解析",
+                    "url":"https://www.myxin.top/jx/api/?url=",
+                    "style": ""
+        },
+        {
+                    "title":"1717kun",
+                    "url":"http://17kyun.com/api.php?url=",
+                    "style": ""
+        }
+    ],
+    "curIndex": -1,
+    "force": false
+}

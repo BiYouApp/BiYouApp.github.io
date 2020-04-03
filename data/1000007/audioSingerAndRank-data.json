@@ -1,0 +1,16 @@
+[
+    {
+        "url": "../singer-list/singer-list",
+        "img": "../../static/img/singer-b.png",
+        "title": "QQ歌手列表",
+        "subTitle": "携手并肩",
+        "bg": "#39c699"
+    },
+    {
+        "url": "../rank-list/rank-list",
+        "img": "../../static/img/audio-rank.png",
+        "title": "网易云排行榜",
+        "subTitle": "共盼春天到来",
+        "bg": "#fbc752"
+    }
+]

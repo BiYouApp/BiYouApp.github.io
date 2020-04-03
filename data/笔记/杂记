@@ -10,3 +10,34 @@
                 "name":"通用解析",
                 "url":"http://vip.jlsprh.com/?url="
 }
+
+
+{
+  "id": 202001122012,
+    "source": [
+       {
+        "title": "爱奇艺",
+        "url": "https://m.iqiyi.com/",
+        "image": "https://liujietan.gitee.io/biyou/data/image/iqiyi.jpg",
+        "regex": "\\S+iqiyi.com/v_\\S+\\.html\\S*"
+       },
+       {
+        "title": "腾讯",
+        "url": "https://m.v.qq.com/index.html",
+        "image": "https://liujietan.gitee.io/biyou/data/image/qq.jpg",
+        "regex": "\\S+cid=\\S+&vid=\\S+|\\S+v.qq.com/cover\\S+\\.html\\S*|\\S+/x/cover\\S+\\.html\\S*"
+       },
+       {
+        "title": "优酷",
+        "url": "https://www.youku.com",
+        "image": "https://liujietan.gitee.io/biyou/data/image/youku.jpg",
+        "regex": "\\S+youku.com/video/id_\\S+\\.html\\S*|\\S+youku.com/alipay_video/id_\\S+\\.html\\S*"
+       },
+       {
+        "title": "芒果TV",
+        "url": "https://m.mgtv.com/channel/home/",
+        "image": "https://liujietan.gitee.io/biyou/data/image/mangguo.jpg",
+        "regex": "\\S+mgtv.com/b/\\S+\\.html\\S*"
+       }
+     ]
+}
