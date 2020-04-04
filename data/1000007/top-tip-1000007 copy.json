@@ -1,10 +1,10 @@
 {
         "ids": 100005,
         "data": {
-                "color": "#ffffff",
+                "color": "#c71d23",
                 "interval": 2000,
                 "duration": 500,
-                "bgColor": "#969696",
+                "bgColor": "#ffe0e9",
                 "data": [{
                                 "url": "https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_top1",
                                 "content": "抗击肺炎，中国加油!!! 点我查看疫情地图1"
