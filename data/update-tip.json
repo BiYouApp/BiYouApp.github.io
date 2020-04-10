@@ -1,17 +1,13 @@
 {
-    "versionNameR":"2.0.1.0208_R",
-    "versionName":"2.0.1",
-    "versionCode":1000006,
-    "packageSize":"28.50MB",
-    "publicTime":"2020-02-08",
-    "isQuit":false,
+    "versionNameR":"2.1.0.0404_A5",
+    "versionName":"2.1.0",
+    "versionCode":1000007,
+    "packageSize":"30.62MB",
+    "publicTime":"2020-04-04",
+    "isQuit":true,
     "uploadInstructions":[
-        "修复 修复腾讯视频搜索解析失败的Bug",
-        "新增 新增影视搜索(数据爬取自第三方)",
-        "优化 优化播放器的使用体验",
-        "优化 优化app启动页",
-        "新增 新增影片收藏",
-        "更新 更新部分界面"
+        "新增 新增歌曲模块",
+        "修复 修复已知Bug"
     ],
-    "webDownload":"https://liujietan.gitee.io/biyou/apk/biyou-2.0.1.0208_R-1000006.apk"
+    "webDownload":"http://www.biyou.ink/"
 }

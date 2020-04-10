@@ -1,12 +1,23 @@
 {
-    "versionNameR":"1.2.2.0112_R",
-    "versionName":"1.2.2",
-    "versionCode":1000005,
-    "packageSize":"27.46MB",
-    "publicTime":"2020-01-12",
+    "versionNameR":"2.1.0.0405_R",
+    "versionName":"2.1.0",
+    "versionCode":1000007,
+    "packageSize":"30.03MB",
+    "publicTime":"2020-04-05",
     "isQuit":false,
     "uploadInstructions":[
+        "修复 修复腾讯视频解析失败的Bug",
+        "别慌。这是个测试",
+        "修复 修复腾讯视频解析失败的Bug",
+        "修复 修复腾讯视频解析失败的Bug",
+        "修复 修复腾讯视频解析失败的Bug",
+        "修复 修复腾讯视频解析失败的Bug",
+        "修复 修复腾讯视频解析失败的Bug",
+        "修复 修复腾讯视频解析失败的Bug",
+        "修复 修复腾讯视频解析失败的Bug",
+        "修复 修复腾讯视频解析失败的Bug",
         "修复 修复腾讯视频解析失败的Bug"
     ],
-    "webDownload":"http://www.biyou.ink/"
+    "webDownload":"http://www.biyou.ink/",
+    "appDResource": "http://47.101.219.22:6017/apk/biyou-2.1.0.0401_A5-1000007.apk"
 }

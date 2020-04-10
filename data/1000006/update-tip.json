@@ -1,12 +1,14 @@
 {
-    "versionNameR":"1.2.2.0112_R",
-    "versionName":"1.2.2",
-    "versionCode":1000005,
-    "packageSize":"27.46MB",
-    "publicTime":"2020-01-12",
-    "isQuit":false,
+    "versionNameR":"2.1.0.0404_A5",
+    "versionName":"2.1.0",
+    "versionCode":1000007,
+    "packageSize":"30.62MB",
+    "publicTime":"2020-04-04",
+    "isQuit":true,
     "uploadInstructions":[
-        "修复 修复腾讯视频解析失败的Bug"
+        "新增 新增歌曲模块",
+        "修复 修复已知Bug",
+        "详情： http://www.biyou.ink/"
     ],
     "webDownload":"http://www.biyou.ink/"
 }

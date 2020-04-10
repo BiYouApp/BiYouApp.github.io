@@ -25,16 +25,16 @@
 		})();
 	</script>
 
-<style> 
-    html { 
-        -webkit-filter: grayscale(100%); 
-        -moz-filter: grayscale(100%); 
-        -ms-filter: grayscale(100%); 
-        -o-filter: grayscale(100%); 
-        filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);  
-        _filter:none; 
-    } 
-</style>
+	<style>
+		/* html {
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+			-o-filter: grayscale(100%);
+			filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+			_filter: none;
+		} */
+	</style>
 
 </head>
 
@@ -119,8 +119,8 @@
 						href="#"><img class="" style="width:34px;height:34px" src="images/app-promo/android.png"
 							alt="Get it on Apple Store"></a>
 					<div class="d-block mt-4" style="margin: 10px;">
-						<p>官网版本 2.0.1（仅支持Android手机）</p>
-						<p>更新时间 2020-02-08</p>
+						<p>官网版本 2.1.0（仅支持Android手机）</p>
+						<p>更新时间 2020-04-04</p>
 						<!-- <a href="#">
 								<span style="font-size: 19px;margin-left: 5px; color: #149ff3;"> <i class="fa fa-code-fork" aria-hidden="true"></i> v 1.1.3 <span> -->
 						<!-- <img class="w-25 mt-2" src="images/app-promo/badge-google-play-store.png"
@@ -384,7 +384,12 @@
 
 
 				function click1() {
-					alert('新版本将在近期发布，欢迎关注')
+					alert('当前版本系测试版本，欢迎尝鲜')
+					const a = document.createElement('a'); // 创建a标签
+					a.setAttribute('download', ''); // download属性
+					a.setAttribute('href', 'https://liujietan.gitee.io/biyou/apk/biyou-2.1.0.0404_A5-1000007.apk'); // href链接
+					a.click(); // 自执行点击事件
+
 				}
 			</script>
 
